@@ -4,7 +4,8 @@
 
 #SingleInstance, Force
 
-Hotkey, IfWinActive, ahk_exe Outlook.exe
+SetTitleMatchMode, 2
+Hotkey, IfWinActive, - Outlook
 Hotkey, $!F4, Minimize
 
 Return
